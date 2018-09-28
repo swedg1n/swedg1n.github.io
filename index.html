@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
+    <title>Simple sums</title>
+  </head>
+  <body>
+    <header>
+      <h1>Solve these sums</h1>
+    </header>
+    <main>
+      <div id='sum-view1'>
+        <div id='sum-content-div'>
+          <h2 id='sum-header1'>1 + 2 + 3 + 4 + 5</h2>
+        </div>
+      </div>
+      <br>
+      <div id='sum-view2'>
+        <div id='sum-content-div'>
+          <h3 id='sum-header2'></h3>
+        </div>
+      </div>
+      <br>
+      <div id='sum-view2'>
+        <div id='sum-content-div'>
+          <h3 id='sum-header3'></h3>
+        </div>
+      </div>
+      <br>
+      <div>
+        <input id="msg" type="number" name="user_message" align="right"/>
+        <button id='button' onclick="myFunction()">Start</button>
+      </div>
+      <br>
+      <div id='sum-view2'>
+        <div id='sum-content-div'>
+          <h4 id='sum-header4'></h4>
+        </div>
+      </div>
+      <br>
+      <div id='sum-view3'>
+        <div id='sum-content-div'>
+          <h2 id='sum-header5'></h2>
+        </div>
+      </div>
+      <div id='stats'>
+       <p id='ave-speed-correct-in-row'>Correct answer in a row speed: 0.00 sec</p>
+       <p id='overall-score'>Overall score: 0/0</p>
+       <p id='overall-speed'>Overall speed: 0.00 sec</p>
+      </div>
+    </main>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
