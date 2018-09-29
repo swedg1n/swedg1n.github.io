@@ -518,7 +518,7 @@ function myFunction() {
         myHeading4.innerHTML = `${(speed).toFixed(2)} seconds`;
         totalTimeCorrect = totalTimeCorrect + speed;
         totalTime = totalTime + speed;
-        aveCorrect.innerHTML = `Correct answer in a row speed: ${(totalTimeCorrect/correctInRow).toFixed(2)} sec`;
+        aveCorrect.innerHTML = `Correct in a row speed: ${(totalTimeCorrect/correctInRow).toFixed(2)} sec`;
         overallScore.innerHTML = `Overall score: ${totalCorrect}/${totalNumber}`;
         overallSpeed.innerHTML = `Overall speed: ${(totalTime/totalNumber).toFixed(2)} sec`;
       }
@@ -531,7 +531,7 @@ function myFunction() {
         myHeading4.innerHTML = `${(speed).toFixed(2)} seconds`;
         totalTimeCorrect = 0;
         totalTime = totalTime + speed;
-        aveCorrect.innerHTML = `Correct answer in a row speed: 0.00 sec`;
+        aveCorrect.innerHTML = `Correct in a row speed: 0.00 sec`;
         overallScore.innerHTML = `Overall score: ${totalCorrect}/${totalNumber}`;
         overallSpeed.innerHTML = `Overall speed: ${(totalTime/totalNumber).toFixed(2)} sec`;
       }
