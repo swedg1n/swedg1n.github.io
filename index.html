@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
@@ -17,6 +18,11 @@
         </div>
       </div>
       <br>
+      <div>
+        <input id="msg" type="number" name="user_message" align="right"/>
+        <button id='button' onclick="myFunction()">Start</button>
+      </div>
+      <br>
       <div id='sum-view2'>
         <div id='sum-content-div'>
           <h3 id='sum-header2'></h3>
@@ -27,11 +33,6 @@
         <div id='sum-content-div'>
           <h3 id='sum-header3'></h3>
         </div>
-      </div>
-      <br>
-      <div>
-        <input id="msg" type="number" name="user_message" align="right"/>
-        <button id='button' onclick="myFunction()">Start</button>
       </div>
       <br>
       <div id='sum-view2'>
@@ -46,7 +47,7 @@
         </div>
       </div>
       <div id='stats'>
-       <p id='ave-speed-correct-in-row'>Correct answer in a row speed: 0.00 sec</p>
+       <p id='ave-speed-correct-in-row'>Correct in a row speed: 0.00 sec</p>
        <p id='overall-score'>Overall score: 0/0</p>
        <p id='overall-speed'>Overall speed: 0.00 sec</p>
       </div>
